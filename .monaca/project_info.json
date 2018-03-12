@@ -1,0 +1,15 @@
+{
+    "framework_version": "3.5",
+    "cordova_version": "7.1",
+    "xcode_version": "9",
+    "title-ja": "MonacaUserDemoApp2",
+    "title-en": "",
+    "description-ja": "2018\/03\/13 オンラインセミナー用サンプルアプリ",
+    "description-en": "",
+    "category": "User Template",
+    "platform": [
+        "android",
+        "ios"
+    ],
+    "name": "generated-1520836406-5a9f45dde78885c2298b4567"
+}
