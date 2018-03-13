@@ -784,7 +784,7 @@ ncmb.User.loginWithMailAddress(mailAddress, password)
          })
          .catch(function(error) {
              /* 処理失敗 */
-             userError('【Email/PW認証】ログイン失敗:' + error);
+             userError('【Email/PW認証】ログイン失敗:', error);
          });
 ```
 
@@ -864,7 +864,7 @@ ncmb.User.loginAsAnonymous()
          })
          .catch(function(error){
              /* 処理失敗 */
-             userError('【匿名認証】ログイン失敗:' + error);
+             userError('【匿名認証】ログイン失敗:', error);
          });
 ```
 
