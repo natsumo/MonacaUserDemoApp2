@@ -8,7 +8,7 @@ class: center, middle, inverse
 .right[<img src="document-img/takano.png" alt="takano.png" width="150px">]
 
 .footnote[
-20180313 MonacaUserDemoApp2
+20180313 MonacaUserDemoApp2 (Update 20180725)
 ]
 
 ---
@@ -65,7 +65,7 @@ layout: false
 概要
 ]
 ### ニフクラ mobile backend って何？
-* __にふくら-もばいる-ばっくえんど 【[ニフクラ mobile backend](http://mb.cloud.nifty.com/about.htm)】__ スマートフォンアプリに必要なバックエンド機能が開発不要で利用できるクラウドサービス。 クラウド上に用意された機能をAPIで呼び出すだけで利用できます。また、APIを簡単に使うためのSDKを用意しています（ iOS / Android / Monaca / Unity ）。mobile Backend as a Service の頭文字を取って、通称 **mBaaS** と呼ばれています。
+* __にふくら-もばいる-ばっくえんど 【[ニフクラ mobile backend](https://mbaas.nifcloud.com/about.htm)】__ スマートフォンアプリに必要なバックエンド機能が開発不要で利用できるクラウドサービス。 クラウド上に用意された機能をAPIで呼び出すだけで利用できます。また、APIを簡単に使うためのSDKを用意しています（ iOS / Android / Monaca / Unity ）。mobile Backend as a Service の頭文字を取って、通称 **mBaaS** と呼ばれています。
 
 .center[<img src="document-img/About_mBaaS.png" alt="mBaaSとは？" width="350px">]
 
@@ -180,7 +180,7 @@ layout: false
 下記登録を完了し、アカウントを作成しておいてください
 
 * [Monaca](https://ja.monaca.io/register/start.html) の利用登録（無料）
-* [ニフクラ mobile backend](http://mb.cloud.nifty.com/signup.htm) の利用登録（無料）
+* [ニフクラ mobile backend](https://mbaas.nifcloud.com/signup.htm) の利用登録（無料）
 
 ### 動作環境準備
 * PC
@@ -266,8 +266,8 @@ https://ja.monaca.io/
 ### 2. mBaaSの準備
 * mBaaS にログインします
 
-.center[![mBaaSの準備1](document-img/mBaaS_1.png)]
-http://mb.cloud.nifty.com/
+.center[<img width="750px" alt="mBaaSの準備1" src="document-img/mBaaS_1.png">]
+https://mbaas.nifcloud.com/
 
 ---
 .footnote_right[
@@ -335,7 +335,7 @@ http://mb.cloud.nifty.com/
 * mBaaSを利用するためのSDKを導入します
 * Monacaを開きます
 * 上部メニューバーから「設定」＞「JS/CSSコンポーネントの追加と削除...」をクリックします
-.center[<img src="document-img/add_js_sdk_0.png" alt="SDK導入0" width="350px">]
+.center[<img src="document-img/add_js_sdk_0.png" alt="SDK導入0" width="280px">]
 
 ---
 .footnote_right[
@@ -699,7 +699,7 @@ ncmb.User.login(username, password)
 .center[<img src="document-img/Email&PW_5.png" alt="メールアドレス&パスワード新規登録4" width="750px">]
 
 * メールアドレス認証の場合は`userName`が自動的に設定されます
-  * この`userName`を利用してIDPW認証でのログインも可能です
+  * この`userName`を利用してID/PW認証でのログインも可能です
 * `mailAddressConfirm`の値（`true`/`false`）はメールにてPW設定を行った場合に`true`が設定されます
   * ID/PW認証の会員にも追加でメールアドレスの設定が可能です。<br>この場合は`false`が設定されます。
 
@@ -928,7 +928,7 @@ layout: false
  * 使用機能 / プッシュ通知
 * [地図アプリを作ろう！](https://github.com/NIFCloud-mbaas/MonacaMapApp)
  * 使用機能 / データストア,位置情報検索
-* [and more...](http://mb.cloud.nifty.com/doc/current/tutorial/tutorial_monaca.html)
+* [and more...](https://mbaas.nifcloud.com/doc/current/tutorial/tutorial_monaca.html)
 ]
 
 ---
