@@ -183,8 +183,10 @@ layout: false
 * [ニフクラ mobile backend](https://mbaas.nifcloud.com/signup.htm) の利用登録（無料）
 
 ### 動作環境準備
-* PC
- * Chrome 最新版
+* iOS: OS ver.10.0 ~ ver.13.4
+* 端末: iphone 8 (13.4)
+* Xcode: ver.11.4 
+* MacOS: ver.10.15.4 
 
 ---
 .footnote_right[
@@ -293,7 +295,7 @@ https://mbaas.nifcloud.com/
 ]
 
 * アプリが作成されるとAPIキー（２種類）が発行されます
- * APIキーは後で使用します
+    * APIキーは後で使用します
 * ここでは使用しないので、「OK」で閉じます
 
 .center[![mBaaSの準備3](document-img/mBaaS_3.png)]
@@ -773,7 +775,7 @@ ncmb.User.requestSignUpEmail(mailAddress)
 #### 5. Email / PW 認証 ログイン
 
 * 実装コードは以下のように記述しています
- * `wwww/js/mb.js` の `signinByEmail` メソッド内参照
+    * `wwww/js/mb.js` の `signinByEmail` メソッド内参照
 
 ```js
 // Email/PWでログイン
@@ -909,10 +911,18 @@ __３つの会員認証機能を体験しました！__
 * Email / PW で不正な会員登録を防ぎ、確実な会員管理を！
 * 仮会員として匿名認証を上図に利用することで、通常会員化の導線が作れる！
 
+## 参考
+* PodファイルのInstall方法
+    1. ターミナルを開き
+    2. cd <project> フォルダ
+    3. `pod install`で実施 
+    4. `<app>.xcworkspace`を開き
+
 ---
 layout: true
 class: center, middle, inverse_sub
 ---
+
 # おわりに
 
 ---
