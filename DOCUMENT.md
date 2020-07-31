@@ -231,15 +231,14 @@ https://ja.monaca.io/
 
 #### サンプルプロジェクトのインポート
 
-
 * プロジェクトをインポートします
   * [Monaca](https://ja.monaca.io) にログインし、「インポート」をクリックします
   * 「インポート方法」で「URL」をクリックします
+.center[<img src="document-img/006_01.png" alt="import_project" width="400px">]
   * 下記URLをコピーして貼り付けます  
   https://github.com/NIFCLOUD-mbaas/MonacaUserDemoApp2.git
 * プロジェクトがインポートされたら「開く」をクリックします
 
-.center[<img src="document-img/import_project.png" alt="import_project" width="600px">]
 ---
 .footnote_right[
 .right[
