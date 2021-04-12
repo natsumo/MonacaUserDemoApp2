@@ -8,7 +8,7 @@ class: center, middle, inverse
 .right[<img src="document-img/takano.png" alt="takano.png" width="150px">]
 
 .footnote[
-20180313 MonacaUserDemoApp2 (Update 20180725)
+20180313 MonacaUserDemoApp2 (20210412 Update)
 ]
 
 ---
