@@ -1,6 +1,6 @@
 {
   "name": "monaca-core-utils",
-  "version": "2.0.7",
+  "version": "2.1.1",
   "description": "Monaca core APIs necessary for running Monaca apps.",
   "main": "monaca-core-utils.js",
   "monaca": {
@@ -25,13 +25,14 @@
     "test",
     "README.md"
   ],
-  "_release": "2.0.7",
+  "_release": "2.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "2.0.7",
-    "commit": "a926ded5370d938773ba6c23bb5131f46d66b9b1"
+    "tag": "2.1.1",
+    "commit": "79cad09a42c5af44bb77843ad6367a887768d5a8"
   },
   "_source": "https://github.com/monaca/monaca-component-monaca-core-utils.git",
-  "_target": "~2.0.6",
-  "_originalSource": "monaca-core-utils"
+  "_target": "2.1.1",
+  "_originalSource": "monaca-core-utils",
+  "_direct": true
 }
