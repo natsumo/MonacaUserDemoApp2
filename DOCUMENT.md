@@ -183,8 +183,10 @@ layout: false
 * [ニフクラ mobile backend](https://mbaas.nifcloud.com/signup.htm) の利用登録（無料）
 
 ### 動作環境準備
-* PC
- * Chrome 最新版
+* iOS: OS ver.10.0 ~ ver.13.4
+* 端末: iphone 8 (13.4)
+* Xcode: ver.11.4 
+* MacOS: ver.10.15.4 
 
 ---
 .footnote_right[
@@ -229,21 +231,14 @@ https://ja.monaca.io/
 
 #### サンプルプロジェクトのインポート
 
-.left-column[
-
 * プロジェクトをインポートします
-  * 右記リンク先ページを開き「インポート」をクリックします
+  * [Monaca](https://ja.monaca.io) にログインし、「インポート」をクリックします
+  * 「インポート方法」で「URL」をクリックします
+.center[<img src="document-img/006_01.png" alt="import_project" width="400px">]
+  * 下記URLをコピーして貼り付けます  
+  https://github.com/NIFCLOUD-mbaas/MonacaUserDemoApp2.git
 * プロジェクトがインポートされたら「開く」をクリックします
 
-]
-
-.right-column[
-
-.size_large_15[ <br>**https://goo.gl/Ln8nPt** ]
-
-]
-
-.center[<img src="document-img/import_project.png" alt="import_project" width="600px">]
 ---
 .footnote_right[
 .right[
@@ -293,7 +288,7 @@ https://mbaas.nifcloud.com/
 ]
 
 * アプリが作成されるとAPIキー（２種類）が発行されます
- * APIキーは後で使用します
+    * APIキーは後で使用します
 * ここでは使用しないので、「OK」で閉じます
 
 .center[![mBaaSの準備3](document-img/mBaaS_3.png)]
@@ -320,6 +315,7 @@ https://mbaas.nifcloud.com/
 
 * 今回利用する３つの会員認証機能について利用許可設定を行います
 * 右上の「アプリ設定」から「会員認証設定」、「基本」を開き、<br>それぞれ「許可する」を選択して「保存する」をクリックします
+* 確認メールの送信にも「許可する」を選択して「保存する」をクリックします
 
 .center[<img src="document-img/mBaaS_5.png" alt="会員管理設定1" width="750px">]
 
@@ -773,7 +769,7 @@ ncmb.User.requestSignUpEmail(mailAddress)
 #### 5. Email / PW 認証 ログイン
 
 * 実装コードは以下のように記述しています
- * `wwww/js/mb.js` の `signinByEmail` メソッド内参照
+    * `wwww/js/mb.js` の `signinByEmail` メソッド内参照
 
 ```js
 // Email/PWでログイン
@@ -913,6 +909,7 @@ __３つの会員認証機能を体験しました！__
 layout: true
 class: center, middle, inverse_sub
 ---
+
 # おわりに
 
 ---
