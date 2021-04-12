@@ -1,5 +1,5 @@
 // APIキー設定
-var applicationKey    = 'YOUR_NCMB_APPLICATIONKEY';
+var applicationKey = 'YOUR_NCMB_APPLICATIONKEY';
 var clientKey = 'YOUR_NCMB_CLIENTKEY';
 
 // SDKの初期化
